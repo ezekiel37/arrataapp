@@ -1,0 +1,93 @@
+.myowl{
+.owl-carousel{
+.owl-nav{
+   .owl-prev{
+height: 40px;
+width:40px;
+top:45%;
+border-radius:50% !important;
+position: absolute;
+left: -8px;
+transform:translateY(-50%);
+background: transparent url("../../public/img/chevron-left.svg") no-repeat  !important;
+background-position:center !important ;
+outline: none;
+span{
+visibility:hidden;
+}
+&:hover{
+  background-color: grey !important;
+color:white !important;
+}
+}
+
+.owl-next{
+  height: 40px;
+  width:40px;
+  top:45%;
+  border-radius:50% !important;
+  position: absolute;
+  right: -8px;
+  transform:translateY(-50%);
+  background: transparent url("../../public/img/chevron-right.svg") no-repeat  !important;
+  background-position:center !important ;
+  outline: none;
+  span{
+  visibility:hidden;
+  }
+  &:hover{
+    background-color: grey !important;
+  color:white !important;
+  }
+  }
+}
+.owl-dots{
+  visibility: hidden;
+}
+}
+}
+
+
+.dropdown-togle{
+ border: none;
+ outline: none;
+ cursor: pointer;
+ background-color:transparent;
+  &:active{
+  border:none;
+  outline: none;
+  }
+}
+.customicon{
+  float:right;
+}
+.owl-dot{
+ 
+  span{
+    
+ border-radius: 50px;
+ height: 16px !important;
+ margin: 0 2px;
+ opacity: unset;
+ width: 16px !important;
+
+  }
+}
+
+    .owl-dot.active{
+      span{
+        
+     border-radius: 50px;
+     height: 16px !important;
+     margin: 0 2px;
+     opacity: unset;
+     width: 16px !important;
+      background: #ff516b !important;
+      background: linear-gradient(135deg, #ff516b 0%,#826cfd 100%) !important;
+      }
+    }
+ .myrounded>p{
+   color:#000000;
+ }
+
+  
